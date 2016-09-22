@@ -1,0 +1,59 @@
+body {
+  font-size: 2em;
+  font-family: 'poiret one';
+  font-weight: bold;
+  margin-left: 50px;
+}
+h1{
+   display: inline;
+   font-size: 3em;
+   margin: 0;
+}
+
+block {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px;
+  transform: scale(1);
+  transition: transform 1s;
+
+}
+block:hover{
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+block#pass{
+    background-color: #66cc66;
+}
+block#fail{
+    background-color: #cc3300;
+}
+result {
+    display: block;
+    padding: 10px;
+}
+result#pass{
+color: #66cc66;
+}
+result#fail{
+color: #cc3300;
+}
+header{
+      position: relative;
+    height: 150px;
+    display: flex;
+}
+img {
+    border-radius: 100%;
+    border-width: 5px;
+    transform: scale(0.8);
+    display: inline;
+}
+#error-report{
+    margin: 0;
+    font-size: 0.5em;
+    margin-left: 20px;
+
+}
